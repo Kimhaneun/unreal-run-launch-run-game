@@ -12,7 +12,7 @@ public class RunLaunchRun : ModuleRules
         PublicIncludePaths.AddRange(new string[] { "RunLaunchRun" });
         #endregion
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" , "UMG"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
